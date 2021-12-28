@@ -245,6 +245,6 @@ export class MapperComponent implements OnInit {
   }
 
   clickedEvt(data: any) {
-    console.log("Clicked Data: ", data);
+    console.log("Clicked Data MC: ", data);
   }
 }
