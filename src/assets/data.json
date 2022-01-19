@@ -10,6 +10,7 @@
         {
             "name": "B1-Auto trade",
             "flag": true,
+	    "visited": true,
             "children": [
                 {
                     "name": "C1",
@@ -29,7 +30,8 @@
                         {
                             "name": "D1-Ford",
                             "size": 3534,
-                            "flag": true
+                            "flag": true,
+                            "visited": true
                         },
                         {
                             "name": "D2",
@@ -47,7 +49,8 @@
                                 {
                                     "name": "E1-CRV",
                                     "size": 3534,
-                                    "flag": true
+                                    "flag": true,
+				    "visited": true
                                 }
                             ]
                         }
