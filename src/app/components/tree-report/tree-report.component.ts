@@ -23,7 +23,8 @@ export class TreeReportComponent implements OnInit {
   constructor(public api: ApiService) { }
 
   ngOnInit() {
-    this.api.getJSON().subscribe(data => {
+    //this.api.getJSON().subscribe(data => {
+    this.api.getJSON('data.json').subscribe(data => {
       this.treeData = data;      
       this.initTree();
     });
